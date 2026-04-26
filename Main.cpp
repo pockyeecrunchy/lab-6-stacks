@@ -4,6 +4,7 @@
 
 
 int main() {
+
     //variables
     stackType stack;
     node* pTemp = nullptr;
