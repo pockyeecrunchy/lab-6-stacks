@@ -2,6 +2,50 @@
 #include "Stack.h"
 #include "Standard.h"
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// Students Name: Oscar Lan
+// Course: CST-202: Data Structures
+// Program Name: Lab 6 - Stacks
+// Date: April 26, 2026
+//
+//-------------------------------------------------------------------------------------------------
+// Program Description:
+// 
+// The program implements a stack using a linked list to convert infix expressions from an input 
+// file into postfix notation. The program reads each line from the input, processes operators 
+// based on precedence using a stack, and outputs the postfix result to a file. Also, the extra 
+// credit solves the postfix expressions and outputs the computed results to a  separate file 
+// called "ExtraCreditOutput.txt".
+// 
+//-------------------------------------------------------------------------------------------------
+// Inputs:
+// 
+// - Input.txt: Contains infix mathematical expressions consisting of digits, parentheses, and 
+//   operators (+, -, *, /).
+// 
+//-------------------------------------------------------------------------------------------------
+// Processing:
+// 
+// - Opens input and output files
+// - Reads each line from the input file
+// - Iterates through each character in the line
+// - Uses a stack to manage operators and parentheses
+// - Converts infix expressions to postfix notation based on operator precedence
+// - Writes postfix expressions to an output file
+//
+// - (Extra Credit):
+//      • Re-opens the files
+//      • Reads postfix expressions
+//      • Uses a stack to evaluate expressions
+//      • Performs arithmetic operations using PerformMath
+//
+//-------------------------------------------------------------------------------------------------
+// Outputs:
+// 
+// - Output.txt: Contains postfix expressions converted from the input
+// - ExtraCreditOutput.txt: Contains evaluated results of postfix expressions
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 int main() {
 

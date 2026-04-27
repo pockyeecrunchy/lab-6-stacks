@@ -1,6 +1,19 @@
 #ifndef STACK_H
 #define STACK_H
 
+//------------------------------------------------------------------------------------------------
+// File Name: Stack.h
+// Written by: Oscar Lan
+//------------------------------------------------------------------------------------------------
+// Contents:
+//
+// This file defines the data structures and class used to implement a stack using a linked list.
+// Includes the record structure for storing symbols and numerical values, the node structure for 
+// linking elements, and the stackType class which provides stack operations such as push, pop, 
+// and checking if the stack is empty. The class also maintains a counter to track the number of 
+// elements in the stack.
+//
+//------------------------------------------------------------------------------------------------
 
 // Structure: record
 struct record
