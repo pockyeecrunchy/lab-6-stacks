@@ -204,7 +204,7 @@ int main() {
             if (tempChar >= '0' && tempChar <= '9')
             {
                 pTemp = new node;                           // Allocate new node
-                pTemp->data.number = tempChar - '0';        // Convert char to integer value
+                pTemp->data.number = static_cast<double>(tempChar - '0');      // Convert char to integer value
                 pTemp->pNext = nullptr;                     // Initialize next pointer 
 
                 stack.Push(pTemp);                          // Push the number into stack!

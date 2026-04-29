@@ -61,14 +61,13 @@ double PerformMath(char operation, double valueA, double valueB)
 //------------------------------------------------------------------------------------------------
 int ReturnPriority(char symbol)
 {
-    if (symbol == '(')
-        return 0;
+    if (symbol == '(') return 0;
 
-    if (symbol == '+' || symbol == '-')
-        return 1;
+    else if (symbol == '+' || symbol == '-') return 1;
 
-    if (symbol == '*' || symbol == '/')
-        return 2;
+    else if (symbol == '*' || symbol == '/') return 2;
+
+    else return -1; // invalid symbol
 }
 
 //------------------------------------------------------------------------------------------------
