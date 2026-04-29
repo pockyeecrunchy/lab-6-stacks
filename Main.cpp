@@ -21,7 +21,7 @@
 // Inputs:
 // 
 // - Input.txt: Contains infix mathematical expressions consisting of digits, parentheses, and 
-//   operators (+, -, *, /).
+//   the operators (+, -, *, /).
 // 
 //-------------------------------------------------------------------------------------------------
 // Processing:
@@ -33,7 +33,7 @@
 // - Converts infix expressions to postfix notation based on operator precedence
 // - Writes postfix expressions to an output file
 //
-// - (Extra Credit):
+// - Extra Credit:
 //      • Re-opens the files
 //      • Reads postfix expressions
 //      • Uses a stack to evaluate expressions
